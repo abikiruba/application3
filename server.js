@@ -5,7 +5,7 @@ const MongoClient = require('mongodb').MongoClient
 
 app.use(bodyParser.urlencoded({ extended: true }))
 
-connectionString='mongodb+srv://abikiruba:abi0902#@cluster0.orqo6fs.mongodb.net/?retryWrites=true&w=majority'
+connectionString='mongodb+srv://abikiruba:abi9020#@cluster0.orqo6fs.mongodb.net/?retryWrites=true&w=majority'
 
 MongoClient.connect(connectionString, (err, client) => {
   if (err) return console.error(err)
